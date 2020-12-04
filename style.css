@@ -11,20 +11,22 @@
     justify-content: center;
     align-items: center;
 }
-
+body {
+    display:flex;
+    flex-direction: column;
+}
 .Outer{
     width:200px;
     height:150px;
     background: red;
     color: white;
     text-align: justify;
-    border-right: solid 10px red;
-    border-left: solid 10px red;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 25px;
 }
 
 .Inner{
